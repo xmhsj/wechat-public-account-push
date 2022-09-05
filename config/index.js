@@ -41,8 +41,8 @@ export const config = {
       title: "下午好呀呀鸭",
       constellation: "金牛座",
       love: "99",
-      color: "五颜六色",
-      state："喜滋滋"
+      color: "五颜六色"
+      
     }, 
   ],
 
