@@ -41,22 +41,7 @@ export const config = {
     }, 
   ],
 
-  /**
-   * 回调消息 相关，主要用来展示发送是否成功/失败的数据
-   */
 
-  // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "zjV1glIuCXo4Csr23aXWEio1iP74sZJ7IQEES95lDsg6c4yOU",
-
-  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
-    {
-      // 一般都填自己
-      name: "自己",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ohx12OO6VskYv03Kuf43ywIZVRM4puXhk",
-    }, 
-  ],
     
   /**
    * 信息配置
