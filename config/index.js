@@ -18,9 +18,9 @@ export const config = {
    *    // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
    *    id: "o7Cls5koAK-lHbecywdHC3YXMaRM",
    *    // 你想对他发送的模板消息的模板ID
-   *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
+   *    useTemplateId: "_VsTzfNgG48E1Qw0I93w7n4FkcLtF-W3qm68RH9wJqw",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
+   *    //openUrl: "https://wangxinleo.cn"
    *   }, 
    * ]
    */
@@ -31,17 +31,14 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o7Cls5koAK-lHbecywdHC3YXMaRM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "CKm2-iQb4Tqxu0Vob890oGxoSdv0ipUkNHWSvYaNbXQ",
+      useTemplateId: "_VsTzfNgG48E1Qw0I93w7n4FkcLtF-W3qm68RH9wJqw",
       // 所在省份
       province: "湖南",
       // 所在城市
       city: "长沙",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://wangxinleo.cn",
-      title: "下午好呀呀鸭",
-      constellation: "金牛座",
-      love: "99",
-      color: "五颜六色"
+      // openUrl: "https://wangxinleo.cn",
+
       
     }, 
   ],
