@@ -29,7 +29,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o7Cls5koAK-lHbecywdHC3YXMaRM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "-LGYEDAmN9UNHOl-ePB9wj6SjhuUms-LjSZeOFC150w",
+      useTemplateId: "Je06Q5b7Ete8cU1n50Ki5kroDsDARsaADCcNR9UuP6Q",
       // 所在省份
       province: "湖南",
       // 所在城市
@@ -45,9 +45,9 @@ export const config = {
    *   id: "o7Cls5udh3Vf9QNMFdu6Hv4cTlak",
    *   // 你想对他发送的模板消息的模板ID
    *   useTemplateId: "_VsTzfNgG48E1Qw0I93w7n4FkcLtF-W3qm68RH9wJqw",
-   *   // 所在省份
+   *   // 所在省份,对应模板内容中的{{province.DATA}}
    *   province: "湖南",
-   *   // 所在城市
+   *   // 所在城市,对应模板内容中的{{city.DATA}}
    *   city: "长沙",
    *   // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
    *   // openUrl: "https://wangxinleo.cn",
@@ -90,7 +90,6 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "崽崽", "year": "2000", "date": "05-05"},
   ],
-
   /**
    * 限制重要节日的展示条目, 需要填写数字; 
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -99,18 +98,17 @@ export const config = {
   FESTIVALS_LIMIT: 4,
 
   /** 日期相关 */
-
   /** 你现在可以随心增加你认为的所有的需要纪念的日子啦！
     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
     * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
     * */
   CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
+    // 在一起的日子,对应模板内容中的{{love_day.DATA}}
     {"keyword": "love_day", date: "2018-02-14"},
     // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
+    // {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
+    // {"keyword": "ex_day", date: "2022-08-31"},
     // sakana日
     // {"keyword": "sakana_day", date: "2022-01-06"},
     // ... 
