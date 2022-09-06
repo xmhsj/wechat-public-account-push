@@ -2,10 +2,8 @@ export const config = {
   /**
    * 公众号配置
    */
-
   // 公众号APP_ID
   APP_ID: "wx2ba1f68d8d79c5fa",
-
   // 公众号APP_SECRET
   APP_SECRET: "83ebbbfcf6b67712dbd3258b2d94fb92",
 
@@ -39,29 +37,29 @@ export const config = {
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       // openUrl: "https://wangxinleo.cn",
     }, 
-    {
-      // 想要发送的人的名字
-      name: "崽崽",
-      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "o7Cls5udh3Vf9QNMFdu6Hv4cTlak",
-      // 你想对他发送的模板消息的模板ID
-      useTemplateId: "_VsTzfNgG48E1Qw0I93w7n4FkcLtF-W3qm68RH9wJqw",
-      // 所在省份
-      province: "湖南",
-      // 所在城市
-      city: "长沙",
-      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      // openUrl: "https://wangxinleo.cn",
-    }, 
+  /**实际投入应用的时候再写上
+   * {
+   *   // 想要发送的人的名字
+   *   name: "崽崽",
+   *   // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+   *   id: "o7Cls5udh3Vf9QNMFdu6Hv4cTlak",
+   *   // 你想对他发送的模板消息的模板ID
+   *   useTemplateId: "_VsTzfNgG48E1Qw0I93w7n4FkcLtF-W3qm68RH9wJqw",
+   *   // 所在省份
+   *   province: "湖南",
+   *   // 所在城市
+   *   city: "长沙",
+   *   // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+   *   // openUrl: "https://wangxinleo.cn",
+   * }, 
+   */
   ],
-
+  
   /**
    * 回调消息 相关，主要用来展示发送是否成功/失败的数据
    */
-
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: "_cBEbg5nDrU5UBRnp1EVRqNXXrDGkDSwmBDZOTRYA7c",
-
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
     {
@@ -77,14 +75,12 @@ export const config = {
    */
 
   /** 天气相关 */
-
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
   PROVINCE: "湖南",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
   CITY: "长沙",
 
   /** 重要节日相关 */
-
   /**
    * 重要节日，修改名字为对应需要显示的名字, data 仅填月日即可, 请严格按照示例填写
    * tpye必须填！ 只能 “生日” 和 “节日” 二选一!
