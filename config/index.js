@@ -29,7 +29,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o7Cls5koAK-lHbecywdHC3YXMaRM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "Je06Q5b7Ete8cU1n50Ki5kroDsDARsaADCcNR9UuP6Q",
+      useTemplateId: "hZzt76u5bqiqC7bJWtU_qs5Gm0UV4_tXV2riV85Shzg",
       // 所在省份
       province: "湖南",
       // 所在城市
@@ -121,7 +121,7 @@ export const config = {
     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
     * */
   SLOT_LIST: [
-    // 这样配置的话，就会每次发送这句话
+    // 这样配置的话，就会每次发送这句话,对应模板内容中的{{encourage_oneself.DATA}}
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
