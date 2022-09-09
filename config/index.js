@@ -35,24 +35,22 @@ export const config = {
       // 所在城市
       city: "长沙",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      // openUrl: "https://wangxinleo.cn",
+      openUrl: "https://dnspod.qcloud.com/static/webblock.html?d=www.hxhmbnw.love",
     }, 
-  /**实际投入应用的时候再写上
-   * {
-   *   // 想要发送的人的名字
-   *   name: "崽崽",
-   *   // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-   *   id: "o7Cls5udh3Vf9QNMFdu6Hv4cTlak",
-   *   // 你想对他发送的模板消息的模板ID
-   *   useTemplateId: "_VsTzfNgG48E1Qw0I93w7n4FkcLtF-W3qm68RH9wJqw",
-   *   // 所在省份,对应模板内容中的{{province.DATA}}
-   *   province: "湖南",
-   *   // 所在城市,对应模板内容中的{{city.DATA}}
-   *   city: "长沙",
-   *   // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *   // openUrl: "https://wangxinleo.cn",
-   * }, 
-   */
+    {
+      // 想要发送的人的名字
+      name: "崽崽",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "o7Cls5udh3Vf9QNMFdu6Hv4cTlak",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "2mkl4DR938OsW5yYDDqK-LJTl-42i3P_Dzsueadgjqw",
+      // 所在省份,对应模板内容中的{{province.DATA}}
+      province: "湖南",
+      // 所在城市,对应模板内容中的{{city.DATA}}
+      city: "长沙",
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: "https://dnspod.qcloud.com/static/webblock.html?d=www.hxhmbnw.love",
+    }, 
   ],
   
   /**
